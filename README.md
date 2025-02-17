@@ -1,1 +1,3 @@
 # azure-commands
+
+Useful Azure commands and scripts...
