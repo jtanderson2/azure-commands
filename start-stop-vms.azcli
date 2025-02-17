@@ -1,0 +1,5 @@
+# start vm
+az vm start -g $rg -n $vm --no-wait
+
+# stop vm
+az vm deallocate -g $rg -n $vm --no-wait
