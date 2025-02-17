@@ -1,0 +1,2 @@
+# create vnet and subnet
+az network vnet create -g $rg -n $vnet --location $location --address-prefixes $vnetpfx --subnet-name $snet --subnet-prefix $snetpfx
