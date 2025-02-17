@@ -1,0 +1,2 @@
+# show vnet peerings
+az network vnet peering list -g $rg --vnet-name $vnet -o table
