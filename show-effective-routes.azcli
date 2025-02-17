@@ -1,0 +1,2 @@
+# show effective routes
+az network nic show-effective-route-table -n $nic -g $rg -o table
