@@ -1,0 +1,2 @@
+# connect serial console
+az serial-console connect -n $vm -g $rg
