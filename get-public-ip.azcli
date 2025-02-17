@@ -1,0 +1,2 @@
+# get public ip
+az network public-ip show -g $rg -n $pip --query "{address: ipAddress}"
